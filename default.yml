@@ -3,7 +3,7 @@ require:
   - rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 3.0
+  TargetRubyVersion: 3.2
   DisplayCopNames: true
   DisplayStyleGuide: true
   NewCops: enable
@@ -99,3 +99,6 @@ RSpec/ContextWording:
     - and
     - but
     - for
+
+RSpec/VerifiedDoubleReference:
+  Enabled: false
